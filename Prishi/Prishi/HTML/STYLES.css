@@ -1,0 +1,57 @@
+*{
+    background-color: antiquewhite;
+    margin-right: 10px;
+}
+h1,h2{
+    
+    color: rgb(50, 5, 153);
+}
+h2{
+    background-color: rgb(209, 197, 142);
+    margin-left: 10px;
+    font-style: oblique;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+    font-weight: 200;
+   
+}
+.tail{
+    background-color: rgb(145, 199, 181);
+}
+#text{
+    background-color: rgb(148, 148, 211);
+}
+body{
+    border: 3px black dotted;
+    padding: 20px;
+
+}
+div{
+    border: 5px solid;
+    background-color: rgb(211, 228, 151);
+}
+#para{
+    background-color: rgb(207, 190, 131);
+    color: rgb(9, 43, 136);
+    text-align: justify;
+    text-decoration: underline;
+    text-decoration-color: rgb(56, 136, 19);
+    word-spacing: 8px;
+    line-height: 20px;
+
+}
+p{
+    color: rgb(70, 9, 94);
+ 
+}
+.division{
+    border: 2px dashed red;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: black;
+}

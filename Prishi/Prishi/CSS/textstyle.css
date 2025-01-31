@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    background-color: black;
+    margin:0 ;
+    padding:0 ;
+    box-sizing: border-box ;
+    font-family: 'Roboto';
+    color: rgb(240, 248, 255);
+    
+}
+h2{
+    
+
+}
+
+.header{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.header .logo{
+    display: flex;
+    gap: 10px;
+    
+}
+.header .logo img{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.header .logo h2{
+    margin-top: 15px;
+
+}
+.header .logo sup{
+    margin-top: 12px;
+    font-size: x-small;
+}
+.header .search-input input{
+  color: white;
+  margin-top: 15px;
+  padding: 12px;
+  width: 700px;
+  border-radius: 15px;
+}
+.header .search {
+    margin-top: 10px;   
+    border: 1px solid white;
+    padding: 15px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.header .mic{
+    margin-top: 10px;
+    border: 1px solid white;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.header .yt-icon .create {
+    margin-top: 10px;
+    border: 1px solid white;
+    padding: 15px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.header .yt-icon .notify{
+    margin-top: 10px;
+    border: 1px solid white;
+    padding: 15px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.header .yt-icon{
+    display: flex;
+    gap: 40px;
+   
+}
+.header .account-details h3{
+    color: white;
+    margin-right: 15px;
+    margin-top: 13px;
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    background: grey;
+
+}
+.horizontal{
+    margin-top: 10px;
+}
+.category ol{
+    color: white;
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.category ol li{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    background: #3a3a3a;
+    cursor: pointer;
+}
+.category ol li:hover{
+    background: #484848;
+}
+.video-content{
+    background:#1a1a1a ;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    padding: 10px;
+    text-align: left;
+
+}
+.video-content img{
+    width:400px ;
+    height:200px ;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.video-content h3{
+    font-size: 16px;
+    nav-right: 10px 0 5px;
+}
+.video-content p{
+    font-size: 14px;
+    color:#ccc ;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+.footer{
+    color: white;
+    text-align: center;
+}
